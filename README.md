@@ -1,4 +1,5 @@
-# Extract boot2docker boot files
+#b2d-extract
+#### Extract boot2docker boot files
 
 ```
 $ docker build -t b2d-extract . && docker run --rm -v $PWD:/data b2d-extract
